@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9VWR5QBJP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z9VWR5QBJP');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comnex</title>
+  <link rel="icon" type="img" href="./assets/images/Comnex Square Logo.png"> 
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .item1 { grid-area: auto;  }
+    .item2 { grid-area: left;  }
+    .item3 { grid-area: center;  }
+    .item4 { grid-area: right; }
+
+    .gridrgb(194, 194, 201)
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'left left center center right right'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+img {
+  float: left;
+width: 100%;
+}
+
+body {
+  font-size: 100%;
+}
+h1{
+  font-size: 2em;
+  text-align: center;
+}
+h2{
+  font-size: 1.5em;
+}
+p{font-size: 1em;}
+
+  </style>
+</head>
+
+<body>
+  <div class="grid-container"></div>
+  <div class="item1">
+    <img class="logo" width= 100% src="./Assets/Comnex Black Logo Horizontal.png" alt="logo">
+    <h1>together we build the future</h1> 
+  </div>
+
+    <div class="item2"> 
+      <h2 class="card-title">Business Development</h2>
+      <p class="card-text">We specialize in forging strategic alliances and expanding market reach, propelling businesses forward.</p>
+      <img class="tile-image"  src="./Assets/undraw_Business_deal_re_up4u.png" alt="business people shaking hands">
+    </div>
+
+    <div class="item3">
+      <h2 class="card-title">Marketing</h2>
+      <p>Our creative marketing strategies drive engagement, awareness, and meaningful connections with your target audience.
+      </p>
+      <img class="tile-image"  src="./Assets/undraw_All_the_data_re_hh4w.png" alt="strategic chart of target audience">
+    </div>
+
+     <div class="item4">
+      <h2 class="card-title">Strategy</h2>
+        <p class="card-text">We craft tailored strategies that align your goals, resources, and market dynamics to achieve exceptional outcomes.</p>
+      <img class="tile-image" src="./Assets/undraw_Goals_re_lu76.png" alt="marketing charts">
+      </div>  
+    </div>
+
+<h2>Contact</h2>
+<p>Email Us: <a href = "mailto: business@comnex.sg">business@comnex.sg</a></p>
+
+  </div>
+  <footer>
+    <p>Build. Connect. Grow.</p>
+  </footer>
+</body>
+
+</html>
